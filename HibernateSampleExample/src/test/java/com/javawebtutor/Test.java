@@ -6,7 +6,7 @@ import org.hibernate.Session;
 
 public class Test {
 	public static void main(String[] args) {
-		Session session = HibernateUtil.getSessionFactory().openSession();
+		Session session = HibernateUtil.getSessionFactory().openSession();//
 
 		session.beginTransaction();
 		User user = new User();
